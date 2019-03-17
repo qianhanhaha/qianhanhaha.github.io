@@ -96,7 +96,7 @@
 <meta property="og:description" content="宽带城域网技术QOS要求的技术有:资源预留（RSVP) 区分服务（DiffServ) 多协议标记转换（MPLS) 链路状态度量包括：费用 距离  延时  宽带  RPR技术RPR中每一个节点都执行SRP公平算法，与FDDI一样使用双环结构。RPR采用自愈环设计思路，能在50ms时间内实现自愈RPR环中，源节点向目的节点成功发出的数据帧要由目的结点从环中收回，提高环带宽的利用率RPR沿顺时针传输的光">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://images0.cnblogs.com/i/409148/201404/241347342953750.jpg">
-<meta property="og:updated_time" content="2019-03-17T06:08:55.370Z">
+<meta property="og:updated_time" content="2019-03-17T07:07:49.389Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="网络技术">
 <meta name="twitter:description" content="宽带城域网技术QOS要求的技术有:资源预留（RSVP) 区分服务（DiffServ) 多协议标记转换（MPLS) 链路状态度量包括：费用 距离  延时  宽带  RPR技术RPR中每一个节点都执行SRP公平算法，与FDDI一样使用双环结构。RPR采用自愈环设计思路，能在50ms时间内实现自愈RPR环中，源节点向目的节点成功发出的数据帧要由目的结点从环中收回，提高环带宽的利用率RPR沿顺时针传输的光">
@@ -342,7 +342,10 @@
 <h1 id="xDSL技术"><a href="#xDSL技术" class="headerlink" title="xDSL技术"></a>xDSL技术</h1><p>xSDL是各种类型DSL（Digital Subscriber Line) 数字用户线路的总称<br>采用ADSL技术可以通过PSTN接入Internet<br>ADSL Modern用于连接计算机<br>ADSL使用一对铜双绞线，上行下行速率不相同<br>ADSL技术在现有用户电话线上同时支持电话业务和数字业务<br>ADSL技术提供非对称宽带特性<br>ADSL上行传输速率64kbps~640kbps<br>HDSL上行传输速率为1.544Mbps</p>
 <h1 id="服务器技术："><a href="#服务器技术：" class="headerlink" title="服务器技术："></a>服务器技术：</h1><p>集群系统中一台主机出现故障不会是整个网络无法工作，但会影响系统的性能<br>服务器总体性能不仅仅取决与CPU数量，而且与CPU主频、系统内存、网络速度都有关系<br>RAID是磁盘阵列技术在一定程度上可以提高磁盘存储容量但是不能提高容错能力<br>采用RISC结构处理器的服务器通常不采用Windows操作系统，采用UNIX系统<br>RISC精简指令集计算机是一种执行较少类型计算机指令的微处理器，<br>非统一内存访问（分布式内存访问）（NUMA）技术将对称多处理器（SMP）和集群（Cluster）技术结合起来<br>热插拔允许在不切断电源的情况下，更换存在故障的硬盘，板卡<br>如果系统可靠性达到99.9%，那么每年的停机时间小于等于8.8小时，系统可靠性达到99.99%：53分  系统可靠性达到99.999%：5分钟<br>99.9=8.8小时（528分钟）    99.99=53分钟    99.999=5分钟</p>
 <h1 id="集线器："><a href="#集线器：" class="headerlink" title="集线器："></a>集线器：</h1><p>连接到一个集线器的所有结点共享一个冲突域，<br>这些节点执行CSMA/CD介质访问控制方法<br>通过网络链路中串接一个集线器可以监听该链路中的数据包<br>集线器处于物理层，所以每次只能有一个结点能够发送数据，其他节点处于接收数据的状态<br>二层交换机工作于数据链路层，三层交换机与路由器工作在网络层，监控一个端口只能获得这个端口与其他端口之间的通信流量；<br>三层交换机是具有路由功能的二层交换机<br>使用Sniffer在网络设备的一个端口上能够捕捉到与之属于同一VLAN的不同端口的所有通信流量，这种设备是集线器<br><img src="https://images0.cnblogs.com/i/409148/201404/241347342953750.jpg" alt="虚拟局域网"><br>中继器只能起到对传输介质上信号波形的接收、放大、整形与转发的作用；中继器的工作不涉及帧结构，不对帧的内容做任何处理。</p>
-<h1 id="IEEE802-11标准"><a href="#IEEE802-11标准" class="headerlink" title="IEEE802.11标准"></a>IEEE802.11标准</h1>
+<h1 id="攻击"><a href="#攻击" class="headerlink" title="攻击"></a>攻击</h1><p>攻击：<br>DNS欺骗攻击：攻击者采用某种手段，使用户访问某网站时获得一个其他网站的IP地址，从而将用户的访问引导到其他网站<br>DDoS攻击是指攻击者能够攻破多个系统，利用这些系统集中攻击其他目标，大量请求使被害设备因为无法处理而拒绝服务；<br>Land攻击是指向某个设备发送数据包，把源IP地址和目的IP地址均设为攻击目标地址；<br>Smurf攻击指攻击者冒充被害主机IP地址向大型网络发送echo request 定向广播包，此网络大量主机应答，是受害主机收到大量<br>echo reply消息<br>SYN Flooding攻击：攻击者使用无效的IP地址，利用TCP连接的三次握手，使得受害主机处于开放会话的请求之中<br>直至连接超时，在此期间，受害主机将会连续接收这种会话请求，最终耗尽资源而停止响应<br>SQL注入攻击利用主机应用系统漏洞进行攻击<br>校园网内的一台计算机只能使用IP地址而无法使用域名访问某个外部服务器，应该是DNS服务器故障或配置不正确，没有提供正常域名<br>解析服务，被访问服务器名字解析的DNS服务器有故障，目的端口为53的访问请求被限制</p>
+<h2 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h2><p>ipconfig显示当前TCP/IP网络配置，<br>netstat显示本机与远程计算机的TCP/IP的NeTBIOS的统计及连接信息；<br>pathping将报文发送到所经过地所有路由器，并根据每一跳返回的报文进行统计，可用于检测本机配置的DNS服务器是否工作正常；<br>route显示或修改本地IP路由表条目<br>Windows环境下可以用来修改主机默认网关设置的命令是 route<br>Ipconfig/all用于显示全部的TCP/IP网络配置<br>Nbtstat -a用于显示使用远程计算机统计和连接信息。<br>Netstat -a用于显示主机上活动的TCP连接状况，<br>net view用于显示域列表，计算机列表或指定计算机上共享资源列表<br>地址类别</p>
+<p>A类：1.0.0.0~127.255.255.255  子网掩码：255.0.0.0<br>B类：128.0.0.0~191.255.255.255  子网掩码：255.255.0.0<br>C类:192.0.0.0~223.255.255.255  子网掩码：255.255.255.0</p>
+
       
     </div>
 
@@ -515,7 +518,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#宽带城域网技术"><span class="nav-number">1.</span> <span class="nav-text">宽带城域网技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#RPR技术"><span class="nav-number">2.</span> <span class="nav-text">RPR技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#接入技术"><span class="nav-number">3.</span> <span class="nav-text">接入技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#xDSL技术"><span class="nav-number">4.</span> <span class="nav-text">xDSL技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器技术："><span class="nav-number">5.</span> <span class="nav-text">服务器技术：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#集线器："><span class="nav-number">6.</span> <span class="nav-text">集线器：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#IEEE802-11标准"><span class="nav-number">7.</span> <span class="nav-text">IEEE802.11标准</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#宽带城域网技术"><span class="nav-number">1.</span> <span class="nav-text">宽带城域网技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#RPR技术"><span class="nav-number">2.</span> <span class="nav-text">RPR技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#接入技术"><span class="nav-number">3.</span> <span class="nav-text">接入技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#xDSL技术"><span class="nav-number">4.</span> <span class="nav-text">xDSL技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器技术："><span class="nav-number">5.</span> <span class="nav-text">服务器技术：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#集线器："><span class="nav-number">6.</span> <span class="nav-text">集线器：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#攻击"><span class="nav-number">7.</span> <span class="nav-text">攻击</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#常用指令"><span class="nav-number">7.1.</span> <span class="nav-text">常用指令</span></a></li></ol></li></ol></div>
             
 
           </div>
